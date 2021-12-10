@@ -1,0 +1,33 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+    background-image: url(../assets/images/hubbledeep.png);
+    color: #c4c9f6;
+}
+
+header {
+    display: inline;
+    text-align: center;
+    justify-content: center;
+    height: 10px;
+}
+
+.longbox {
+    position:relative;
+
+    height: 70px;
+    width: 1300px;
+    padding: 9px;
+    border: 5px solid white;
+    border-radius: 15%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: black;
+}
+
+#mary {
+    position: fixed;
+    height: 70px;
+    width: 70px;
+    padding-left: 45px;
+
+}
