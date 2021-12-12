@@ -31,3 +31,32 @@ header {
     padding-left: 45px;
 
 }
+*/
+
+
+
+
+
+/* Tablets - */
+@media screen and (max-width: 992px) 
+    {
+    * {
+      background-color: #ad358f;
+      }
+    }
+  
+  /* Large smartphones */
+  @media screen and (max-width: 768px) 
+  {
+    * {
+      background-color: #cf7378;
+      }
+    }
+  
+  /* Small smartphones */
+  @media screen and (max-width: 576px) 
+  {
+    * {
+      background-color: #eb272e;
+      }
+    }
