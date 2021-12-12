@@ -23,6 +23,19 @@ header {
     background-image: none;  
 }
 
+.bigbox{
+    display: flexbox;
+    text-align: center;
+    height: 600px;
+    width: 900px;
+    padding: 9px;
+    border: 5px solid white;
+    border-radius: 15%;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: none; 
+}
+
 maryheader1 {
     font-size: 2em;
     font-weight:bold;
@@ -34,6 +47,12 @@ maryheader1 {
     height: 70px;
     width: 70px;
     }
+
+#traditionalart {
+        position: relative;
+        display: inline-flex;
+        height: ;
+        }    
 
 /* Tablets - */
 @media screen and (max-width: 992px) 
@@ -56,6 +75,19 @@ maryheader1 {
   /* Large smartphones */
   @media screen and (max-width: 768px) 
   {
+    .longbox {
+      width: 50%;
+      height: 50%;
+      border-radius: 50%;
+     }
+    maryheader1::after {
+        color: red;
+        content: ">:("; 
+    }      
+    #mary {
+        display: none; 
+    }
+}  {
     * {
       background-color: #cf7378;
       }
@@ -65,7 +97,20 @@ maryheader1 {
   /* Small smartphones */
   @media screen and (max-width: 576px) 
   {
+    .longbox {
+      width: 50%;
+      height: 50%;
+      border-radius: 50%;
+     }
+    maryheader1::after {
+        color: blue;
+        content: ":P"; 
+    }      
+    #mary {
+        display: none; 
+    }
+}  {
     * {
-      background-color: #eb272e;
+      background-color: #cf7378;
       }
     }
