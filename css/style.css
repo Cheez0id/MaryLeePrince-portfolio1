@@ -4,12 +4,10 @@
     color: #c4c9f6;
     text-align: center;
     }
-.nav {
-    color:turquoise
-}
 
- .longbox {  
-    display: flexbox;
+
+ .longbox {   
+    position: relative ;
     border: 5px solid white;
     border-radius: 15%;
     margin-left: auto;
@@ -18,7 +16,7 @@
     padding: 45px;
     text-align: center;
     background: #13293d;
-}  
+} 
 
 
 .bigbox{
@@ -34,6 +32,7 @@
 
 .box {
         display: flexbox;
+        float:left;
         height: 300px;
         width: 300px;
         padding: 9px;
