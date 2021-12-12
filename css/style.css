@@ -2,17 +2,15 @@
     font-family: 'Courier New', Courier, monospace;
     background-image: url(../assets/images/hubbledeep.png);
     color: #c4c9f6;
-    
+    text-align: center;
 }
 
-header {
+header { 
     display: inline;
-    text-align: center
-   }
+    }
 
-.longbox {
+ .longbox {  
     display: flexbox;
-    text-align: center;
     height: 70px;
     width: 900px;
     padding: 9px;
@@ -20,12 +18,12 @@ header {
     border-radius: 15%;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 10px;
     background-image: none;  
-}
+}  
 
 .bigbox{
     display: flexbox;
-    text-align: center;
     height: 600px;
     width: 900px;
     padding: 9px;
@@ -34,12 +32,30 @@ header {
     margin-left: auto;
     margin-right: auto;
     background-image: none; 
-}
+    margin-bottom: 20px;
+    }
+
+
+    section {
+        flex-wrap:wrap;
+    }
+    
+    .box {
+        display: flexbox;
+        height: 300px;
+        width: 300px;
+        padding: 9px;
+        border: 5px solid white;
+        border-radius: 15%;
+        margin-left: auto;
+        margin-right: auto;
+        background-image: none; 
+        }
 
 maryheader1 {
     font-size: 2em;
-    font-weight:bold;
-  }
+    font-weight:bold; 
+} 
 
 #mary {
     position: relative;
@@ -50,9 +66,8 @@ maryheader1 {
 
 #traditionalart {
         position: relative;
-        display: inline-flex;
-        height: ;
-        }    
+        display: inline;
+    }    
 
 /* Tablets - */
 @media screen and (max-width: 992px) 
