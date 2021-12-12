@@ -3,129 +3,110 @@
     background-image: url(../assets/images/hubbledeep.png);
     color: #c4c9f6;
     text-align: center;
-}
-
-header { 
-    display: inline;
     }
+.nav {
+    color:turquoise
+}
 
  .longbox {  
     display: flexbox;
-    height: 70px;
-    width: 900px;
-    padding: 9px;
     border: 5px solid white;
     border-radius: 15%;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 10px;
-    background-image: none;  
+    padding: 45px;
+    text-align: center;
+    background: #13293d;
 }  
+
 
 .bigbox{
     display: flexbox;
-    height: 600px;
-    width: 900px;
     padding: 9px;
     border: 5px solid white;
     border-radius: 15%;
     margin-left: auto;
     margin-right: auto;
-    background-image: none; 
     margin-bottom: 20px;
     }
 
 
-    section {
-        flex-wrap:wrap;
-    }
-    
-    .box {
+.box {
         display: flexbox;
         height: 300px;
         width: 300px;
         padding: 9px;
-        border: 5px solid white;
+        border: 5px solid rgb(255, 232, 27);
         border-radius: 15%;
         margin-left: auto;
         margin-right: auto;
         background-image: none; 
         }
 
+section {
+    background: #13293d;
+}
+
 maryheader1 {
     font-size: 2em;
     font-weight:bold; 
 } 
 
-#mary {
+.mary {
     position: relative;
     display: inline-flex;
     height: 70px;
     width: 70px;
     }
-
-#traditionalart {
-        position: relative;
-        display: inline;
-    }    
+   
+   
 
 /* Tablets - */
 @media screen and (max-width: 992px) 
  {
     .longbox {
-      width: 50%;
-      height: 50%;
-      border-radius: 50%;
+    width: 50%;
      }
     maryheader1::after {
         color: hotpink;
         content: ":)"; 
+    }
+    .bigbox {
+        width: 50%;
     }      
-    #mary {
-        display: none; 
+    .scaleable {
+        width: 50%;
+        height: 50%;
+    }
+    .mary {
+        width: 150px;
+        height: 150px;
     }
 }    
 
   
   /* Large smartphones */
   @media screen and (max-width: 768px) 
-  {
+ {
     .longbox {
-      width: 50%;
-      height: 50%;
-      border-radius: 50%;
-     }
-    maryheader1::after {
-        color: red;
-        content: ">:("; 
-    }      
-    #mary {
-        display: none; 
-    }
-}  {
-    * {
-      background-color: #cf7378;
+      width: 25%;
       }
+    maryheader1 {
+        display: none;
     }
+    
+}  
 
   
   /* Small smartphones */
   @media screen and (max-width: 576px) 
-  {
+ {
     .longbox {
-      width: 50%;
-      height: 50%;
-      border-radius: 50%;
-     }
+      width: 25%;
+      }
     maryheader1::after {
         color: blue;
         content: ":P"; 
     }      
-    #mary {
-        display: none; 
-    }
-}  {
-    * {
-      background-color: #cf7378;
-      }
-    }
+}
