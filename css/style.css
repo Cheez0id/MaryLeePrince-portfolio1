@@ -3,8 +3,11 @@
     background-image: url(../assets/images/hubbledeep.png);
     color: #c4c9f6;
     text-align: center;
-    }
+    
+}
 
+p {font-size:25px ;
+  }
 
  .longbox {   
     position: relative ;
@@ -40,6 +43,8 @@
         border-radius: 15%;
         margin-left: auto;
         margin-right: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
         background-image: none; 
         }
 
@@ -58,8 +63,14 @@ maryheader1 {
     height: 70px;
     width: 70px;
     }
-   
-   
+
+    
+#footer {
+        clear:both
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+      }
 
 /* Tablets - */
 @media screen and (max-width: 992px) 
@@ -94,7 +105,6 @@ maryheader1 {
     maryheader1 {
         display: none;
     }
-    
 }  
 
   
