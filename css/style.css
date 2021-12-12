@@ -13,7 +13,6 @@ header {
 }
 
 .longbox {
-    position:relative;
     height: 70px;
     width: 1300px;
     padding: 9px;
@@ -21,6 +20,7 @@ header {
     border-radius: 15%;
     margin-left: auto;
     margin-right: auto;
+    background-image: none;  
 }
 
 #mary {
@@ -28,19 +28,30 @@ header {
     height: 70px;
     width: 70px;
     padding-left: 45px;
-
 }
 
 
 /* Tablets - */
 @media screen and (max-width: 992px) 
-    {
+ {
     .longbox {
       width: 50%;
       height: 50%;
-      $
-      }
+      border-radius: 50%;
+     }
+    h1::after {
+        color: hotpink;
+        content: ":)";} 
     }
+    h1 {
+
+    }
+    #mary {
+        padding-left:78px;
+        padding-top: 5px; 
+        lighting-color: hotpink; 
+    }
+
   
   /* Large smartphones */
   @media screen and (max-width: 768px) 
