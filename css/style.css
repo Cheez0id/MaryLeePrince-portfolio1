@@ -60,17 +60,8 @@ li {font-size:25px;
         margin-right: auto;
         margin-top: 20px;
         margin-bottom: 20px;
-        background-image: none; 
         }
 
-        aside {
-            width: 30%;
-            padding-left: 15px;
-            margin-left: 15px;
-            float: right;
-            font-style: italic;
-            background-color: lightgray;
-          }
 .middle {
     border: 5px solid rgb(255, 232, 27);
  }
