@@ -28,7 +28,8 @@ li {font-size:25px;
   }
 
  .longbox {   
-    background-image: url(/Homework/MaryLeePrince-portfolio1/assets/images/hubbledeep.png);
+    background-image: url(../assets/images/hubbledeep.png);
+    background-color: black;
     position:initial ;
     display:table;
     margin-left: auto;
