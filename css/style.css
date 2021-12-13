@@ -70,7 +70,10 @@ li {font-size:25px;
      line-height: 1.7;
  }
 
-
+.centercontent {
+    display: flex;
+    justify-content: center;
+}
 
 img {
     background-color: transparent;
