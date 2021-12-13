@@ -6,20 +6,38 @@
     
 }
 
-p {font-size:25px ;
-  }
+p {font-size:25px;
+    text-align: left;
+}
+ul {
+    display: inline-flex;
+}
 
- .longbox {   
-    position: relative ;
-    border: 5px solid white;
+li {font-size:25px;
+    padding: 30px;
+    list-style-type: none;
+}
+ .about {
+     border: 5px solid white;
     border-radius: 15%;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 10px;
     padding: 45px;
-    text-align: center;
-    background: #13293d;
-} 
+    width: 75%;
+  }
+
+ .longbox {   
+    position:initial ;
+    display:table;
+    border: 5px solid white;
+    border-radius: 15%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    padding: 30px;
+    width: 75%;
+    } 
 
 
 .bigbox{
@@ -48,25 +66,26 @@ p {font-size:25px ;
         background-image: none; 
         }
 
-section {
-    background: #13293d;
+        aside {
+            width: 30%;
+            padding-left: 15px;
+            margin-left: 15px;
+            float: right;
+            font-style: italic;
+            background-color: lightgray;
+          }
+.middle {
+    border: 5px solid rgb(255, 232, 27);
+ }
+
+
+img {
+    background-color: transparent;
 }
-
-maryheader1 {
-    font-size: 2em;
-    font-weight:bold; 
-} 
-
-.mary {
-    position: relative;
-    display: inline-flex;
-    height: 70px;
-    width: 70px;
-    }
-
-    
+   
 #footer {
-        clear:both
+        clear:both;
+        margin-bottom: 200px;
       }
 
 /* Tablets - */
