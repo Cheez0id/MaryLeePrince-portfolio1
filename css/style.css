@@ -1,9 +1,10 @@
 * {
     font-family: 'Courier New', Courier, monospace;
-    background-image: url(../assets/images/hubbledeep.png);
+   
     color: #c4c9f6;
     text-align: center;
     scroll-behavior: smooth;
+    background-color: black;
 }
 
 
@@ -29,20 +30,16 @@ li {font-size:25px;
  .longbox {   
     position:initial ;
     display:table;
-    border: 5px solid white;
-    border-radius: 15%;
     margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 10px;
-    padding: 30px;
+    margin-right: auto;  
     width: 75%;
+    border: 5px solid rgb(83, 52, 133);
     } 
 
 
 #bigbox{
     display: flexbox;
     padding: 9px;
-    border: 5px solid white;
     border-radius: 15%;
     margin-left: auto;
     margin-right: auto;
@@ -56,7 +53,6 @@ li {font-size:25px;
         height: 300px;
         width: 300px;
         padding: 9px;
-        border: 5px solid rgb(255, 232, 27);
         border-radius: 15%;
         margin-left: auto;
         margin-right: auto;
@@ -98,11 +94,7 @@ img {
     .longbox {
     width: 50%;
      }
-    maryheader1::after {
-        color: hotpink;
-        content: ":)"; 
-    }
-    .bigbox {
+      .bigbox {
         width: 50%;
     }      
     .scaleable {
@@ -122,10 +114,7 @@ img {
     .longbox {
       width: 25%;
       }
-    maryheader1 {
-        display: none;
-    }
-}  
+ }  
 
   
   /* Small smartphones */
@@ -134,7 +123,7 @@ img {
     .longbox {
       width: 25%;
       }
-    maryheader1::after {
+    #about::after {
         color: blue;
         content: ":P"; 
     }      
