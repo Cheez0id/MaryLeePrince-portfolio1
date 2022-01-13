@@ -4,9 +4,11 @@
     color: #a7aff6;
     text-align: center;
     scroll-behavior: smooth;
+    
+}
+.body {
     background-color: rgb(0, 0, 0);
 }
-
 
 p {font-size:25px;
     text-align: left;
@@ -29,12 +31,12 @@ li {font-size:25px;
 
  .longbox {   
     background-image: url(../assets/images/hubbledeep.png);
-    background-color: black;
     position:initial ;
     display:table;
     margin-left: auto;
     margin-right: auto;  
-    margin-top: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
     width: 75%;
     border: 5px solid rgb(83, 52, 133);
     border-radius: 5%;
@@ -42,6 +44,7 @@ li {font-size:25px;
 
 
 #bigbox{
+    
     display: flexbox;
     padding: 9px;
     border-radius: 15%;
