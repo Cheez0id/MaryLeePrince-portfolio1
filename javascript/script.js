@@ -1,4 +1,7 @@
 
+
+// const fs = require("fs");
+// const moment = require("../../node_modules/moment/moment");
 // var fs = require('fs');
 // var moment = require('moment'); 
 // moment().format(); 
@@ -6,7 +9,7 @@
 const todayDay = () => {
 const today = document.getElementById("today");
 console.log(today);
-var dayToday = moment().format("dddd, MMMM Do YYYY");
+var dayToday = `Today's Date is ${moment().format("dddd, MMMM Do YYYY")}`;
 today.append(dayToday);
 }
 todayDay();
