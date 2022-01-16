@@ -14,6 +14,18 @@ today.append(dayToday);
 }
 todayDay();
 
+const since = () =>{
+  let beginCoding = moment("2021-12-06", "YYYY-MM-DD");
+  let currentDay = moment().startOf('day');
+  let daysSince = moment.duration(beginCoding.diff(currentDay)).asDays() * -1;
+console.log("hi"); 
+today.append(`; it has been ${daysSince} days since I started learning to code.`);
+console.log(daysSince);
+}
+since();
+
+
+
 // const dayToday = moment().format("dddd, MMMM Do YYYY");
 // today.text(dayToday);
 
