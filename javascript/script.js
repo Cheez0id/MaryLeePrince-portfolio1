@@ -6,6 +6,9 @@
 // var moment = require('moment'); 
 // moment().format(); 
 
+console.log("hello");
+const today = document.getElementById("today");
+console.log(today);
 //A function to show today's date.
 const todayDay = () => {
 const today = document.getElementById("today");

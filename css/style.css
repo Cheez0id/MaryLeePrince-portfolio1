@@ -75,8 +75,8 @@ li {font-size:25px;
  }
 
 .centercontent {
-    
-    justify-content: center;
+    /* display: flex; */
+        justify-content: center;
 }
 
 img {
