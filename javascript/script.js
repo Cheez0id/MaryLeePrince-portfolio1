@@ -26,3 +26,9 @@ console.log(daysSince);
 since();
 
 
+
+
+document.getElementById("maryEmail").addEventListener("click", function(event){
+  event.preventDefault();
+  console.log(maryEmail);
+});
