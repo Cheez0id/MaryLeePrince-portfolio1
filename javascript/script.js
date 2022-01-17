@@ -31,4 +31,6 @@ since();
 document.getElementById("maryEmail").addEventListener("click", function(event){
   event.preventDefault();
   console.log(maryEmail);
+  navigator.clipboard.writeText("maryleeprince.ga@gmail.com");
+
 });
