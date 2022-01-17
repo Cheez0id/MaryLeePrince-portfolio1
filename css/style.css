@@ -45,6 +45,18 @@ li {
 	border-radius: 5%;   
 }
 
+.longboxTop {
+	background-image: url(../assets/images/hubbledeep.png);
+	flex-wrap: wrap;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	width: 75%;
+	border: 5px solid rgb(83, 52, 133);
+	border-radius: 5%;   
+}
+
 .box {
 	display: flexbox;
 	float: left;
