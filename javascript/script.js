@@ -1,39 +1,38 @@
-
 //attempting to use NPM module to use moment.js - ended up using script source from browser
 // const fs = require("fs");
 // const moment = require("../../node_modules/moment/moment");
 // var fs = require('fs');
-// var moment = require('moment'); 
-// moment().format(); 
+// var moment = require('moment');
+// moment().format();
 
 console.log("hello");
 const today = document.getElementById("today");
 console.log(today);
 //A function to show today's date.
 const todayDay = () => {
-const today = document.getElementById("today");
-console.log(today);
-var dayToday = `Today's Date is ${moment().format("dddd, MMMM Do YYYY")}`;
-today.append(dayToday);
-}
+	const today = document.getElementById("today");
+	console.log(today);
+	var dayToday = `Today's Date is ${moment().format("dddd, MMMM Do YYYY")}`;
+	today.append(dayToday);
+};
 todayDay();
 //and a function to add the number of days since I started learning to code.
-const since = () =>{
-  let beginCoding = moment("2021-12-06", "YYYY-MM-DD");
-  let currentDay = moment().startOf('day');
-  let daysSince = moment.duration(beginCoding.diff(currentDay)).asDays() * -1;
-console.log("hi"); 
-today.append(`; it has been ${daysSince} days since I started learning to code.`);
-console.log(daysSince);
-}
+const since = () => {
+	let beginCoding = moment("2021-12-06", "YYYY-MM-DD");
+	let currentDay = moment().startOf("day");
+	let daysSince = moment.duration(beginCoding.diff(currentDay)).asDays() * -1;
+	console.log("hi");
+	today.append(
+		`; it has been ${daysSince} days since I started learning to code.`
+	);
+	console.log(daysSince);
+};
 since();
 
-
-
-
-document.getElementById("maryEmail").addEventListener("click", function(event){
-  event.preventDefault();
-  console.log(maryEmail);
-  navigator.clipboard.writeText("maryleeprince.ga@gmail.com");
-
-});
+document
+	.getElementById("maryEmail")
+	.addEventListener("click", function (event) {
+		event.preventDefault();
+		console.log(maryEmail);
+		navigator.clipboard.writeText("maryleeprince.ga@gmail.com");
+	});
