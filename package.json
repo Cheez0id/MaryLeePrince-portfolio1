@@ -1,5 +1,25 @@
 {
   "dependencies": {
     "moment": "^2.29.1"
-  }
-}
+  },
+
+//   "name": "maryleeprince-portfolio1",
+//   "description": "a repository in which to create my first portfolio in html and css",
+//   "version": "1.0.0",
+//   "main": "index.js",
+//   "devDependencies": {},
+//   "scripts": {
+//     "test": "echo \"Error: no test specified\" && exit 1"
+//   },
+//   "repository": {
+//     "type": "git",
+//     "url": "git+https://github.com/Cheez0id/MaryLeePrince-portfolio1.git"
+//   },
+//   "keywords": [],
+//   "author": "",
+//   "license": "ISC",
+//   "bugs": {
+//     "url": "https://github.com/Cheez0id/MaryLeePrince-portfolio1/issues"
+//   },
+//   "homepage": "https://github.com/Cheez0id/MaryLeePrince-portfolio1#readme"
+// }
